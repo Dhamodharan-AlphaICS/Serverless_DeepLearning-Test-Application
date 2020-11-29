@@ -39,7 +39,7 @@ It is important to give admin access to SERVERLESS from respective AWS account. 
 1. mkdir some_folder, cd some_folder:
       sls create --template aws-python3 --name helloservice
 2. It will create two base files for you. Such as handler.py and serverless.yml
-3. Go to serverless.yml, just below fucntions and under handler add memorySize: 128 also add timeout 30
+3. Go to serverless.yml, just below functions and under handler add memorySize: 128 also add timeout 30
 4. Go back to terminal and type: sls deploy
 5. Now you can go back and check you lambda function created on your AWS GUI
 
