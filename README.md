@@ -47,3 +47,8 @@ It is important to give admin access to SERVERLESS from respective AWS account. 
 
 If this all goes well, Yes you are in the right direction. Please stop here if you stuck with any error.
 
+Further this article is going to focus on Image based analytics, I will not explain the code here. Just clone this repository to play around with this instructions.
+
+# STEP 5 DeepLearning MODEL Deployment:
+
+
