@@ -1,8 +1,6 @@
 # Serverless_DeepLearning-Test-Application
 
 # STEP 1
-Attach existing policies directly. Then check AdministratorAccess. Click Next. Then click Next till end and create User
-5. Once you create User. You need to copy Access Key ID and secret access Key. Also Download the .CSV file.(If you go to next page, You cannot get this secretKey again. Careful!)
 # AWS Account Creation
 
 1. Go to AWS webpage and create a new account
