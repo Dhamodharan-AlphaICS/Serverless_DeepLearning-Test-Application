@@ -49,4 +49,18 @@ Further this article is going to focus on Image based analytics, I will not expl
 
 # STEP 5 DeepLearning MODEL Deployment:
 
+sls create --template aws-python3 --name resnet50
 
+sls plugin install -n serverless-python-requirements@4.2.4
+
+sls invoke local --function resnet50-classify --path event.json
+
+conda create -n keras-deploy python=3.6
+
+pip freeze
+
+pip freeze >> requirements.txt
+
+sudo sls package
+
+sudo sls deploy
